@@ -1,4 +1,0 @@
-std_msgs/Header header
-float32 temperature_flag
-float32 temperature_box
-float32 temperature_chip
