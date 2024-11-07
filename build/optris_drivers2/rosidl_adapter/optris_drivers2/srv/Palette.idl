@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from optris_drivers2/srv/Palette.srv
+// generated code does not contain a copyright notice
+
+
+module optris_drivers2 {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Palette_Request {
+      int16 palette;
+
+      int16 palette_scaling;
+
+      float temperature_min;
+
+      float temperature_max;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Palette_Response {
+      boolean success;
+    };
+  };
+};

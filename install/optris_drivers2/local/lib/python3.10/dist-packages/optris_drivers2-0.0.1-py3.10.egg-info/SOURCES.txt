@@ -1,0 +1,13 @@
+setup.py
+optris_drivers2/__init__.py
+optris_drivers2.egg-info/PKG-INFO
+optris_drivers2.egg-info/SOURCES.txt
+optris_drivers2.egg-info/dependency_links.txt
+optris_drivers2.egg-info/top_level.txt
+optris_drivers2/msg/__init__.py
+optris_drivers2/msg/_flag.py
+optris_drivers2/msg/_temperature.py
+optris_drivers2/srv/__init__.py
+optris_drivers2/srv/_auto_flag.py
+optris_drivers2/srv/_palette.py
+optris_drivers2/srv/_temperature_range.py

@@ -1,0 +1,31 @@
+# Comandos a ejecutar para hacer funcionar el repositorio sensors_ws
+
+No es necesario hacer source, ya que esta hecho por defecto en este directorio mediante el archivo ~/.bashrc.
+
+1. Calibración de la cámara RGBD + térmica (1280x720)
+
+
+
+
+2. Medición de la distancia para cada porcentage de focus
+
+ros2 launch realsense2_camera thermal_launch.py focus:=80
+
+
+3. Launch general de todos los nodos para el funcionamiento del sistema
+
+ros2 launch realsense2_camera main_launch.py
+
+ros2 launch realsense2_camera main_launch.py focus:=80 yolo_model:=yolov8m-seg.pt rgbd_resolution:="1280,720,30" homography_file:=1280 name_class:=person number_class:=0
+
+
+4. Guardar fotos y/o videos
+
+Imagenes:
+python3 ~/sensors_ws/src/Saving/image_saver_node_all.py
+
+Videos:
+python3 ~/sensors_ws/src/Saving/videos_saver_node_all.py
+
+
+5. Si se quiere cambiar la homografia se ha de modificar el archivo /home/yeray/sensors_ws/src/optris_drivers2/script/HALLEGADOELDIA.py

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from optris_drivers2/srv/TemperatureRange.srv
+// generated code does not contain a copyright notice
+
+
+module optris_drivers2 {
+  module srv {
+    struct TemperatureRange_Request {
+      int16 temperature_range_min;
+
+      int16 temperature_range_max;
+    };
+    struct TemperatureRange_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+setup.py
+ultralytics_ros/__init__.py
+ultralytics_ros.egg-info/PKG-INFO
+ultralytics_ros.egg-info/SOURCES.txt
+ultralytics_ros.egg-info/dependency_links.txt
+ultralytics_ros.egg-info/top_level.txt
+ultralytics_ros/msg/__init__.py
+ultralytics_ros/msg/_yolo_result.py

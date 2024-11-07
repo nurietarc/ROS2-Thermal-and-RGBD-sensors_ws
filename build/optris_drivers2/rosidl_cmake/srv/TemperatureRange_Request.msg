@@ -1,0 +1,2 @@
+int16 temperature_range_min
+int16 temperature_range_max

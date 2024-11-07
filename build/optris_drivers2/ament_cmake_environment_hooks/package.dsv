@@ -1,0 +1,4 @@
+source;share/optris_drivers2/local_setup.bash
+source;share/optris_drivers2/local_setup.dsv
+source;share/optris_drivers2/local_setup.sh
+source;share/optris_drivers2/local_setup.zsh

@@ -1,0 +1,10 @@
+{
+  "package_name": "optris_drivers2",
+  "non_idl_tuples": [
+    "/home/yeray/sensors_ws/src/optris_drivers2:msg/Temperature.msg",
+    "/home/yeray/sensors_ws/src/optris_drivers2:msg/Flag.msg",
+    "/home/yeray/sensors_ws/src/optris_drivers2:srv/AutoFlag.srv",
+    "/home/yeray/sensors_ws/src/optris_drivers2:srv/TemperatureRange.srv",
+    "/home/yeray/sensors_ws/src/optris_drivers2:srv/Palette.srv"
+  ]
+}

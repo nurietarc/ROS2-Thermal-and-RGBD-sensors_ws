@@ -1,0 +1,16 @@
+msg/Flag.idl
+msg/Flag.msg
+msg/Temperature.idl
+msg/Temperature.msg
+srv/AutoFlag.idl
+srv/AutoFlag.srv
+srv/AutoFlag_Request.msg
+srv/AutoFlag_Response.msg
+srv/Palette.idl
+srv/Palette.srv
+srv/Palette_Request.msg
+srv/Palette_Response.msg
+srv/TemperatureRange.idl
+srv/TemperatureRange.srv
+srv/TemperatureRange_Request.msg
+srv/TemperatureRange_Response.msg

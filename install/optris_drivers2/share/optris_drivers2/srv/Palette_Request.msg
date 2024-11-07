@@ -1,0 +1,5 @@
+#request
+int16 palette
+int16 palette_scaling
+float32 temperature_min
+float32 temperature_max

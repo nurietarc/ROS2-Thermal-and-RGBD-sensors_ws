@@ -1,0 +1,58 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from optris_drivers2:srv/Palette.idl
+// generated code does not contain a copyright notice
+
+#ifndef OPTRIS_DRIVERS2__SRV__DETAIL__PALETTE__TYPE_SUPPORT_H_
+#define OPTRIS_DRIVERS2__SRV__DETAIL__PALETTE__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "optris_drivers2/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_optris_drivers2
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  optris_drivers2,
+  srv,
+  Palette_Request
+)();
+
+// already included above
+// #include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_optris_drivers2
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  optris_drivers2,
+  srv,
+  Palette_Response
+)();
+
+#include "rosidl_runtime_c/service_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_optris_drivers2
+const rosidl_service_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  optris_drivers2,
+  srv,
+  Palette
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // OPTRIS_DRIVERS2__SRV__DETAIL__PALETTE__TYPE_SUPPORT_H_
