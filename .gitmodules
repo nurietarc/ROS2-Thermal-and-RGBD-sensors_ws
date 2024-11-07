@@ -1,0 +1,9 @@
+[submodule "ultralytics_ros"]
+	path = ultralytics_ros
+	url = https://github.com/Alpaca-zip/ultralytics_ros
+[submodule "realsense-ros"]
+	path = realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros
+[submodule "optris_drivers2"]
+	path = optris_drivers2
+	url = https://github.com/evocortex/optris_drivers2
