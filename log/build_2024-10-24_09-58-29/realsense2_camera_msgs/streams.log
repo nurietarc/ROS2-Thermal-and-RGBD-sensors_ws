@@ -1,0 +1,236 @@
+[0.046s] Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera_msgs -- -j8 -l8
+[0.164s] [  1%] Built target realsense2_camera_msgs__cpp
+[0.238s] [  1%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.300s] [ 12%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.775s] running egg_info
+[0.777s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[0.777s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[0.778s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[0.781s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[0.782s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[0.840s] [ 12%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[0.913s] [ 23%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[1.004s] [ 34%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[1.072s] [ 46%] Built target realsense2_camera_msgs__rosidl_generator_c
+[1.130s] [ 57%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[1.183s] [ 68%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[1.251s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[1.310s] [ 79%] Built target realsense2_camera_msgs
+[1.362s] [ 80%] Built target realsense2_camera_msgs__py
+[1.414s] [ 90%] Built target realsense2_camera_msgs__rosidl_generator_py
+[1.466s] [ 93%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.529s] [ 96%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[1.606s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[1.654s] Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera_msgs -- -j8 -l8
+[2.025s] Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera_msgs
+[2.058s] -- Install configuration: ""
+[2.059s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[2.059s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.060s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.060s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[2.060s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.061s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[2.061s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[2.061s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[2.061s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[2.061s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.062s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[2.063s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[2.063s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[2.064s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[2.067s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[2.068s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[2.068s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[2.068s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[2.069s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[2.069s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[2.069s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.070s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[2.071s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[2.073s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[2.074s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[2.075s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[2.079s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[2.079s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[2.079s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.079s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[2.079s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[2.080s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[2.082s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.082s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[2.082s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[2.083s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[2.083s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[2.083s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[2.083s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[2.083s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.084s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[2.085s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.086s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[2.086s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.086s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.086s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[2.087s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[2.089s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[2.091s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[2.091s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[2.091s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[2.091s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[2.092s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info
+[2.092s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/SOURCES.txt
+[2.092s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/PKG-INFO
+[2.094s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/top_level.txt
+[2.094s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/dependency_links.txt
+[2.094s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs
+[2.094s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.094s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.094s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py
+[2.095s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.096s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.097s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.097s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[2.180s] Listing '/home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...
+[2.181s] Listing '/home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...
+[2.181s] Listing '/home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...
+[2.190s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.191s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.191s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.192s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[2.192s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[2.193s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[2.193s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[2.193s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[2.194s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[2.197s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[2.198s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[2.198s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[2.199s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[2.199s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[2.199s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[2.199s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[2.200s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[2.200s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[2.201s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[2.201s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[2.201s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[2.202s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[2.202s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[2.203s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[2.203s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[2.203s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[2.203s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[2.204s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[2.205s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[2.205s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.206s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.206s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.207s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.207s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.207s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[2.208s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.208s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[2.208s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.210s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.210s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.211s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.211s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[2.212s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.212s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[2.212s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.213s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[2.213s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.213s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.213s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.214s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.214s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.221s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.221s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[2.221s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[2.221s] -- Up-to-date: /home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[2.249s] Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera_msgs

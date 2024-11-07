@@ -1,0 +1,270 @@
+[0.014s] Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/ultralytics_ros -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/ultralytics_ros
+[0.068s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.688s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.738s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.744s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.767s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.838s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.981s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.040s] -- Looking for pthread.h
+[1.123s] -- Looking for pthread.h - found
+[1.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.213s] -- Found Threads: TRUE  
+[1.282s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.284s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.300s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.321s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[1.342s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.368s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.380s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.392s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[1.396s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[1.401s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.440s] -- Checking for module 'eigen3'
+[1.455s] --   Found eigen3, version 3.4.0
+[1.492s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.493s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.536s] -- Checking for module 'flann'
+[1.550s] --   Found flann, version 1.9.1
+[1.597s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.597s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.779s] -- Checking for module 'libusb-1.0'
+[2.796s] --   Found libusb-1.0, version 1.0.25
+[2.844s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.846s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.932s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.194s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.201s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.209s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.413s] -- Found Qhull version 8.0.2
+[3.676s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.968s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.971s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.974s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.976s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.978s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.980s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.980s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.981s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.982s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.984s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.986s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.990s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.992s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.995s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.996s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.998s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.999s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.001s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.003s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.005s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.006s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.007s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.008s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.009s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.011s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.016s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[4.070s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.072s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.073s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.203s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.211s] -- Found OpenCV: /usr (found version "4.5.4") 
+[4.775s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.598s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.601s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.631s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.632s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.632s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.632s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.658s] -- Found PythonExtra: .so  
+[5.784s] -- Configuring done
+[5.877s] -- Generating done
+[5.882s] -- Build files have been written to: /home/yeray/sensors_ws/build/ultralytics_ros
+[5.909s] Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/ultralytics_ros -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/ultralytics_ros
+[5.912s] Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+[5.967s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_generator_c[0m
+[5.978s] [  3%] Built target ultralytics_ros__cpp
+[5.980s] [ 12%] Built target ultralytics_ros__rosidl_generator_c
+[5.993s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_introspection_c[0m
+[5.993s] [ 12%] Built target ament_cmake_python_copy_ultralytics_ros
+[5.994s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_cpp[0m
+[5.996s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_fastrtps_cpp[0m
+[5.996s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_fastrtps_c[0m
+[5.996s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_introspection_cpp[0m
+[6.007s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_c[0m
+[6.011s] [ 21%] Built target ultralytics_ros__rosidl_typesupport_introspection_c
+[6.016s] [ 30%] Built target ultralytics_ros__rosidl_typesupport_cpp
+[6.017s] [ 45%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_cpp
+[6.017s] [ 48%] Built target ultralytics_ros__rosidl_typesupport_introspection_cpp
+[6.018s] [ 57%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_c
+[6.024s] [ 66%] Built target ultralytics_ros__rosidl_typesupport_c
+[6.033s] [35m[1mConsolidate compiler generated dependencies of target tracker_with_cloud_node[0m
+[6.050s] [ 66%] Built target ultralytics_ros
+[6.073s] [ 72%] Built target tracker_with_cloud_node
+[6.076s] [ 75%] Built target ultralytics_ros__py
+[6.088s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_generator_py[0m
+[6.102s] [ 81%] Built target ultralytics_ros__rosidl_generator_py
+[6.115s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_introspection_c__pyext[0m
+[6.120s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.120s] [35m[1mConsolidate compiler generated dependencies of target ultralytics_ros__rosidl_typesupport_c__pyext[0m
+[6.133s] [ 87%] Built target ultralytics_ros__rosidl_typesupport_introspection_c__pyext
+[6.140s] [ 93%] Built target ultralytics_ros__rosidl_typesupport_fastrtps_c__pyext
+[6.145s] [100%] Built target ultralytics_ros__rosidl_typesupport_c__pyext
+[6.350s] running egg_info
+[6.351s] writing ultralytics_ros.egg-info/PKG-INFO
+[6.351s] writing dependency_links to ultralytics_ros.egg-info/dependency_links.txt
+[6.351s] writing top-level names to ultralytics_ros.egg-info/top_level.txt
+[6.355s] reading manifest file 'ultralytics_ros.egg-info/SOURCES.txt'
+[6.356s] writing manifest file 'ultralytics_ros.egg-info/SOURCES.txt'
+[6.398s] [100%] Built target ament_cmake_python_build_ultralytics_ros_egg
+[6.414s] Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+[6.505s] Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros
+[6.517s] -- Install configuration: ""
+[6.517s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ament_index/resource_index/rosidl_interfaces/ultralytics_ros
+[6.517s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.518s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.518s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/yolo_result.h
+[6.518s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_generator_c__visibility_control.h
+[6.518s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.518s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__functions.c
+[6.519s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__functions.h
+[6.519s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__struct.h
+[6.519s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__type_support.h
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/library_path.sh
+[6.520s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/library_path.dsv
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_generator_c.so
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.520s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_fastrtps_c.h
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_fastrtps_c.so
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/yolo_result.hpp
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__builder.hpp
+[6.521s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__traits.hpp
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__struct.hpp
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.522s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/dds_fastrtps
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_fastrtps_cpp.hpp
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_fastrtps_cpp.so
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__type_support.c
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_introspection_c.h
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_introspection_c.so
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_c.so
+[6.523s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__type_support.cpp
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/include/ultralytics_ros/ultralytics_ros/msg/detail/yolo_result__rosidl_typesupport_introspection_cpp.hpp
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_introspection_cpp.so
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_typesupport_cpp.so
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/pythonpath.sh
+[6.524s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/pythonpath.dsv
+[6.524s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info
+[6.524s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.525s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/PKG-INFO
+[6.525s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/top_level.txt
+[6.525s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_c.c
+[6.525s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/__init__.py
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_yolo_result.py
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/__init__.py
+[6.525s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg/_yolo_result_s.c
+[6.526s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.526s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.526s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/_ultralytics_ros_s.ep.rosidl_typesupport_introspection_c.c
+[6.526s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/libultralytics_ros__rosidl_generator_py.so
+[6.526s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.574s] Listing '/home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros'...
+[6.574s] Compiling '/home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/__init__.py'...
+[6.574s] Listing '/home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/msg'...
+[6.581s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.581s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.582s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/local/lib/python3.10/dist-packages/ultralytics_ros/ultralytics_ros_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.582s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/libultralytics_ros__rosidl_generator_py.so
+[6.582s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/msg/YoloResult.idl
+[6.582s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/msg/YoloResult.msg
+[6.582s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_with_cloud_node
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_node.py
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/kitti_tracker_with_cloud.launch.xml
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker.launch.xml
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker_with_cloud.launch.xml
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/kitti_tracker.launch.xml
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/rviz2
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/rviz2/default.rviz
+[6.583s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/rviz2/kitti.rviz
+[6.584s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ament_index/resource_index/package_run_dependencies/ultralytics_ros
+[6.584s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ament_index/resource_index/parent_prefix_path/ultralytics_ros
+[6.584s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/ament_prefix_path.sh
+[6.584s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/ament_prefix_path.dsv
+[6.584s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/path.sh
+[6.584s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/environment/path.dsv
+[6.584s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.bash
+[6.584s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.sh
+[6.585s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.zsh
+[6.585s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/local_setup.dsv
+[6.585s] -- Installing: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv
+[6.585s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ament_index/resource_index/packages/ultralytics_ros
+[6.585s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cExport.cmake
+[6.586s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cExport-noconfig.cmake
+[6.586s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cExport.cmake
+[6.586s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.586s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_cppExport.cmake
+[6.586s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cExport.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cExport.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cExport-noconfig.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cppExport.cmake
+[6.587s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cppExport.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_pyExport.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/export_ultralytics_ros__rosidl_generator_pyExport-noconfig.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake-extras.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ament_cmake_export_targets-extras.cmake
+[6.588s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.589s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.589s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_rosConfig.cmake
+[6.589s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/cmake/ultralytics_rosConfig-version.cmake
+[6.589s] -- Up-to-date: /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.xml
+[6.591s] Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros

@@ -1,0 +1,6 @@
+Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/ultralytics_ros -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/ultralytics_ros
+Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/ultralytics_ros -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/ultralytics_ros
+Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros
+Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros

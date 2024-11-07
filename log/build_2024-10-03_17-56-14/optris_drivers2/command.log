@@ -1,0 +1,6 @@
+Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/optris_drivers2 -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/optris_drivers2
+Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yeray/sensors_ws/src/optris_drivers2 -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/optris_drivers2
+Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2
+Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2
