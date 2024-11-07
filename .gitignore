@@ -1,1 +1,5 @@
+# Ignore folder with videos and images (really large files)
 src/ProvesDeCamp
+
+# Ignore models (large files)
+# install/ultralytics_ros/share/ultralytics_ros/models
