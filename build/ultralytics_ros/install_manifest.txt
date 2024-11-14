@@ -52,7 +52,6 @@
 /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/msg/YoloResult.msg
 /home/yeray/sensors_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_with_cloud_node
 /home/yeray/sensors_ws/install/ultralytics_ros/lib/ultralytics_ros/tracker_node.py
-/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker-models.launch.xml
 /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/kitti_tracker_with_cloud.launch.xml
 /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker.launch.xml
 /home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/launch/tracker_with_cloud.launch.xml

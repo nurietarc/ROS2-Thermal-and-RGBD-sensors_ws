@@ -1,1 +1,1 @@
-/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble
+/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble

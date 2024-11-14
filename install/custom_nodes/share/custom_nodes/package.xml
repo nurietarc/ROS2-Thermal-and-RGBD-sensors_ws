@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_nodes</name>
+  <version>0.0.1</version>
+  <description>Custom nodes for thermal and RGB camera integration</description>
+
+  <maintainer email="nuria.rodriguez.calderon@upc.edu">Nuria y Yeray</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>ultralytics_ros</exec_depend>
+  <exec_depend>optris_drivers2</exec_depend>
+</package>

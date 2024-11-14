@@ -1,0 +1,153 @@
+[0.052s] Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yeray/sensors_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/realsense2_camera
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.338s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.603s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.604s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.616s] -- Detecting CXX compiler ABI info
+[0.985s] -- Detecting CXX compiler ABI info - done
+[1.013s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.015s] -- Detecting CXX compile features
+[1.016s] -- Detecting CXX compile features - done
+[1.020s] -- Create Release Build.
+[1.023s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.666s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.750s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.763s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.783s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.897s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.066s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[2.178s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.185s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.381s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.445s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.536s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.559s] -- Looking for pthread.h
+[2.691s] -- Looking for pthread.h - found
+[2.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.797s] -- Found Threads: TRUE  
+[2.904s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.935s] -- Found realsense2_camera_msgs: 4.55.1 (/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[2.967s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.996s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.110s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.148s] -- Found OpenCV: /usr (found version "4.5.4") found components: core 
+[3.150s] -- Build for ROS2 Humble
+[3.162s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.166s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.174s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[8.132s] -- rs_device_info:
+[8.132s] -- Device Name                   Serial Number       Firmware Version
+[8.132s] Intel RealSense D455          234322305657        5.16.0.1
+[8.132s] 
+[8.132s] -- D455 device found
+[13.128s] -- Configuring done
+[13.166s] -- Generating done
+[13.169s] -- Build files have been written to: /home/yeray/sensors_ws/build/realsense2_camera
+[13.190s] Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/yeray/sensors_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/yeray/sensors_ws/install/realsense2_camera
+[13.193s] Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera -- -j8 -l8
+[13.261s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.261s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.268s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[13.268s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[13.268s] [ 22%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[13.270s] [ 27%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[13.272s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[13.274s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[15.060s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.202s] [ 40%] Built target gtest_main
+[15.240s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[25.528s] [ 50%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[25.895s] [ 50%] Built target realsense2_camera_node
+[25.931s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[27.245s] [ 59%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[31.940s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[37.089s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[37.809s] [ 72%] [32m[1mLinking CXX static library libgtest.a[0m
+[37.964s] [ 72%] Built target gtest
+[37.998s] [ 77%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[43.859s] [ 81%] [32mBuilding CXX object CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o[0m
+[44.437s] [ 86%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[46.504s] [ 90%] [32m[1mLinking CXX executable gtest_template[0m
+[46.882s] [ 90%] Built target gtest_template
+[46.913s] [ 95%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend.cpp.o[0m
+[60.497s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[61.103s] [100%] Built target realsense2_camera
+[61.119s] Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera -- -j8 -l8
+[61.191s] Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera
+[61.200s] -- Install configuration: "Release"
+[61.200s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[61.200s] -- Set runtime path of "/home/yeray/sensors_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[61.201s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[61.203s] -- Set runtime path of "/home/yeray/sensors_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[61.203s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include
+[61.203s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/ros_param_backend.h
+[61.203s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/profile_manager.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/ros_sensor.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/named_filter.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/base_realsense_node.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/dynamic_params.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/realsense_node_factory.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/ros_utils.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/sensor_params.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/gl_window.h
+[61.204s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/constants.h
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/include/image_publisher.h
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/launch
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth
+[61.205s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/README.md
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/align_depth/rs_align_depth_launch.py
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/README.md
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_from_rosbag/rs_launch_from_rosbag.py
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/urdf_pointcloud.rviz
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rviz/pointcloud.rviz
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/README.md
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+[61.206s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d455_pointcloud_launch.py
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/pointcloud/rs_d405_pointcloud_launch.py
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/README.md
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/rs_launch_get_params_from_yaml.py
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/launch_params_from_file/config/config.yaml
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rviz/dual_camera_pointcloud.rviz
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/README.md
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+[61.207s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[61.208s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[61.209s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.210s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[61.210s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[61.210s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[61.210s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[61.210s] -- Installing: /home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[61.214s] Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2:/opt/ros/humble LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera
