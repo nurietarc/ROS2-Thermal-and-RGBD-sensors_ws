@@ -1,6 +1,3 @@
-# Programa mediante el cual se puede modificar un archivo xml para cambiar un parametro 
-# utilizado en el, mediante la ejecución de un archivo launch
-
 from lxml import etree
 import sys
 
@@ -16,11 +13,12 @@ def modify_focus_in_xml(xml_path, new_focus_value):
         focus_element.text = str(new_focus_value)
         # Guardar los cambios en el archivo con pretty_print para mantener el formato
         tree.write(xml_path, pretty_print=True, xml_declaration=True, encoding="UTF-8")
-
+        print(f"\033[92mFOCUS VALUE CHANGED TO {focus_element.text}\033[0m")  # Texto en verde
 if __name__ == '__main__':
     xml_file_path = sys.argv[1]
     new_focus_value = sys.argv[2]
     modify_focus_in_xml(xml_file_path, new_focus_value)
+
 
 # ###############################
 # # Version inicial de programa #

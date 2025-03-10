@@ -1,0 +1,38 @@
+[0.038s] Invoking command in '/home/yeray/sensors_ws/build/custom_nodes': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/custom_nodes -- -j8 -l8
+[0.062s] /usr/bin/cmake -S/home/yeray/sensors_ws/src/custom_nodes -B/home/yeray/sensors_ws/build/custom_nodes --check-build-system CMakeFiles/Makefile.cmake 0
+[0.077s] /usr/bin/cmake -E cmake_progress_start /home/yeray/sensors_ws/build/custom_nodes/CMakeFiles /home/yeray/sensors_ws/build/custom_nodes//CMakeFiles/progress.marks
+[0.102s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.108s] gmake[1]: Entering directory '/home/yeray/sensors_ws/build/custom_nodes'
+[0.108s] gmake[1]: Nothing to be done for 'all'.
+[0.109s] gmake[1]: Leaving directory '/home/yeray/sensors_ws/build/custom_nodes'
+[0.110s] /usr/bin/cmake -E cmake_progress_start /home/yeray/sensors_ws/build/custom_nodes/CMakeFiles 0
+[0.135s] Invoked command in '/home/yeray/sensors_ws/build/custom_nodes' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/custom_nodes -- -j8 -l8
+[0.230s] Invoking command in '/home/yeray/sensors_ws/build/custom_nodes': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/custom_nodes
+[0.238s] -- Install configuration: ""
+[0.238s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch
+[0.239s] -- Installing: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/main_launch.py
+[0.241s] -- Installing: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/frontend.py
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/thermal_launch.py
+[0.241s] -- Installing: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/main_launch2.py
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/rviz2_config_thermal.rviz
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/launch/rviz2_config3.rviz
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/scripts
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/scripts/temperature_cswi_calculation.py
+[0.241s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/scripts/modify_xml.py
+[0.242s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/scripts/test.py
+[0.242s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/ament_index/resource_index/package_run_dependencies/custom_nodes
+[0.242s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/ament_index/resource_index/parent_prefix_path/custom_nodes
+[0.242s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/environment/ament_prefix_path.sh
+[0.242s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/environment/ament_prefix_path.dsv
+[0.244s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/environment/path.sh
+[0.244s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/environment/path.dsv
+[0.244s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/local_setup.bash
+[0.244s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/local_setup.sh
+[0.245s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/local_setup.zsh
+[0.245s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/local_setup.dsv
+[0.245s] -- Installing: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.dsv
+[0.250s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/ament_index/resource_index/packages/custom_nodes
+[0.250s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/cmake/custom_nodesConfig.cmake
+[0.250s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/cmake/custom_nodesConfig-version.cmake
+[0.250s] -- Up-to-date: /home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.xml
+[0.255s] Invoked command in '/home/yeray/sensors_ws/build/custom_nodes' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/custom_nodes

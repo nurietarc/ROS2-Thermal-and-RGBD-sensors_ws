@@ -33,17 +33,29 @@ def start_rosbag_recording(topics, base_output_path):
 
 if __name__ == '__main__':
     # Definir los topics que quieres grabar
+    # topics = ['/camera/camera/color/image_raw', 
+    #           '/Temperature_and_CSWI/masked_image_with_temperature',
+    #           '/Temperature_and_CSWI/rescaled_rgb',
+    #           '/Temperature_and_CSWI/rescaled_yolo_masks',
+    #           '/camera/camera/depth/image_rect_raw',
+    #           '/thermal                                                                                                      _image_view',
+    #           '/yolo_image',
+    #           '/camera/camera/color/camera_info',
+    #           '/camera/camera/color/metadata',
+            #   ]
     topics = ['/camera/camera/color/image_raw', 
-              '/Temperature_and_CSWI/masked_image_with_temperature',
-              '/Temperature_and_CSWI/rescaled_rgb',
-              '/Temperature_and_CSWI/rescaled_yolo_masks',
               '/camera/camera/depth/image_rect_raw',
-              '/thermal_image',
-              '/thermal_image_view',
-              '/yolo_image'
+              '/camera/camera/color/camera_info',
+              '/camera/camera/color/metadata',
+              '/camera/camera/depth/camera_info',
+              '/camera/camera/depth/metadata'
               ]
+
     # Ruta base de salida para guardar las carpetas de archivos rosbag
-    base_output_path = 'src/ProvesDeCamp/Rosbags'
+    base_output_path = 'Zain/RosbagsCamp3december2024_withsun'
 
     # Iniciar la grabación
     start_rosbag_recording(topics, base_output_path)
+
+                                 
+                                                                                                                   

@@ -1,0 +1,244 @@
+[0.051s] Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+[0.209s] [  1%] Built target optris_drivers2__cpp
+[0.286s] [  1%] Built target ament_cmake_python_copy_optris_drivers2
+[0.374s] [ 11%] Built target optris_drivers2__rosidl_typesupport_introspection_cpp
+[1.339s] running egg_info
+[1.339s] writing optris_drivers2.egg-info/PKG-INFO
+[1.339s] writing dependency_links to optris_drivers2.egg-info/dependency_links.txt
+[1.339s] writing top-level names to optris_drivers2.egg-info/top_level.txt
+[1.344s] reading manifest file 'optris_drivers2.egg-info/SOURCES.txt'
+[1.346s] writing manifest file 'optris_drivers2.egg-info/SOURCES.txt'
+[1.419s] [ 11%] Built target ament_cmake_python_build_optris_drivers2_egg
+[1.494s] [ 21%] Built target optris_drivers2__rosidl_typesupport_fastrtps_cpp
+[1.573s] [ 31%] Built target optris_drivers2__rosidl_typesupport_cpp
+[1.633s] [ 42%] Built target optris_drivers2__rosidl_generator_c
+[1.689s] [ 52%] Built target optris_drivers2__rosidl_typesupport_fastrtps_c
+[1.739s] [ 62%] Built target optris_drivers2__rosidl_typesupport_c
+[1.816s] [ 72%] Built target optris_drivers2__rosidl_typesupport_introspection_c
+[1.899s] [ 72%] Built target optris_drivers2
+[1.954s] [ 73%] Built target optris_drivers2__py
+[2.041s] [ 78%] Built target optris_colorconvert_node
+[2.112s] [ 86%] Built target optris_drivers2__rosidl_generator_py
+[2.206s] [ 91%] Built target optris_imager_node
+[2.276s] [ 94%] Built target optris_drivers2__rosidl_typesupport_c__pyext
+[2.350s] [ 97%] Built target optris_drivers2__rosidl_typesupport_introspection_c__pyext
+[2.452s] [100%] Built target optris_drivers2__rosidl_typesupport_fastrtps_c__pyext
+[2.460s] Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+[2.845s] Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2
+[2.860s] -- Install configuration: ""
+[2.863s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/ament_index/resource_index/rosidl_interfaces/optris_drivers2
+[2.863s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.864s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/temperature_range.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/palette.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__type_support.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__struct.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__struct.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__functions.h
+[2.870s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__functions.c
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__functions.c
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__functions.c
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__type_support.h
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__struct.h
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__functions.h
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__functions.h
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__type_support.h
+[2.871s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/auto_flag.h
+[2.877s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.877s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/flag.h
+[2.877s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/rosidl_generator_c__visibility_control.h
+[2.877s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__functions.c
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__struct.h
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__type_support.h
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__struct.h
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__functions.c
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__functions.h
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__type_support.h
+[2.878s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__functions.h
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/temperature.h
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/library_path.sh
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/library_path.dsv
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_generator_c.so
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.879s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__rosidl_typesupport_fastrtps_c.h
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__rosidl_typesupport_fastrtps_c.h
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__rosidl_typesupport_fastrtps_c.h
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.880s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.882s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__rosidl_typesupport_fastrtps_c.h
+[2.882s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_fastrtps_c.so
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__builder.hpp
+[2.883s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__struct.hpp
+[2.884s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__traits.hpp
+[2.884s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__builder.hpp
+[2.884s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__builder.hpp
+[2.884s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__traits.hpp
+[2.884s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__struct.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__traits.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__struct.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/palette.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/auto_flag.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/temperature_range.hpp
+[2.885s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.886s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/flag.hpp
+[2.886s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/temperature.hpp
+[2.886s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.887s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__traits.hpp
+[2.887s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__traits.hpp
+[2.887s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__struct.hpp
+[2.887s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__builder.hpp
+[2.887s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__struct.hpp
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__builder.hpp
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__rosidl_typesupport_fastrtps_cpp.hpp
+[2.891s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/dds_fastrtps
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__rosidl_typesupport_fastrtps_cpp.hpp
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__rosidl_typesupport_fastrtps_cpp.hpp
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/dds_fastrtps
+[2.892s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[2.895s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__rosidl_typesupport_fastrtps_cpp.hpp
+[2.895s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_fastrtps_cpp.so
+[2.895s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.895s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.895s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.899s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__rosidl_typesupport_introspection_c.h
+[2.902s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__type_support.c
+[2.902s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__type_support.c
+[2.902s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__rosidl_typesupport_introspection_c.h
+[2.902s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__type_support.c
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__rosidl_typesupport_introspection_c.h
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__rosidl_typesupport_introspection_c.h
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__type_support.c
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[2.903s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__type_support.c
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_introspection_c.so
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_c.so
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail
+[2.907s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__rosidl_typesupport_introspection_cpp.hpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__type_support.cpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/auto_flag__rosidl_typesupport_introspection_cpp.hpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__type_support.cpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/palette__rosidl_typesupport_introspection_cpp.hpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/srv/detail/temperature_range__type_support.cpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[2.908s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__type_support.cpp
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/flag__rosidl_typesupport_introspection_cpp.hpp
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/include/optris_drivers2/optris_drivers2/msg/detail/temperature__type_support.cpp
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_introspection_cpp.so
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_typesupport_cpp.so
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/pythonpath.sh
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/pythonpath.dsv
+[2.909s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2-0.0.1-py3.10.egg-info
+[2.909s] -- Installing: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2-0.0.1-py3.10.egg-info/SOURCES.txt
+[2.909s] -- Installing: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2-0.0.1-py3.10.egg-info/PKG-INFO
+[2.910s] -- Installing: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2-0.0.1-py3.10.egg-info/top_level.txt
+[2.918s] -- Installing: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2-0.0.1-py3.10.egg-info/dependency_links.txt
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_auto_flag_s.c
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/__init__.py
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_auto_flag.py
+[2.918s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_temperature_range.py
+[2.919s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_palette.py
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_palette_s.c
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv/_temperature_range_s.c
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/__init__.py
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg/_temperature_s.c
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg/__init__.py
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg/_flag.py
+[2.923s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg/_temperature.py
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg/_flag_s.c
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/liboptris_drivers2__rosidl_generator_py.so
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/_optris_drivers2_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.924s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.925s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/_optris_drivers2_s.ep.rosidl_typesupport_c.c
+[2.925s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/_optris_drivers2_s.ep.rosidl_typesupport_introspection_c.c
+[2.986s] Listing '/home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2'...
+[2.986s] Listing '/home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/msg'...
+[2.986s] Listing '/home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/srv'...
+[2.998s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.998s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.998s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/local/lib/python3.10/dist-packages/optris_drivers2/optris_drivers2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.999s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/liboptris_drivers2__rosidl_generator_py.so
+[3.000s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/msg/Temperature.idl
+[3.000s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/msg/Flag.idl
+[3.001s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/AutoFlag.idl
+[3.002s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/TemperatureRange.idl
+[3.003s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/Palette.idl
+[3.003s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/msg/Temperature.msg
+[3.003s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/msg/Flag.msg
+[3.003s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/AutoFlag.srv
+[3.012s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/AutoFlag_Request.msg
+[3.013s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/AutoFlag_Response.msg
+[3.013s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/TemperatureRange.srv
+[3.014s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/TemperatureRange_Request.msg
+[3.014s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/TemperatureRange_Response.msg
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/Palette.srv
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/Palette_Request.msg
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/srv/Palette_Response.msg
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/optris_drivers2/optris_imager_node
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/lib/optris_drivers2/optris_colorconvert_node
+[3.015s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/ament_index/resource_index/package_run_dependencies/optris_drivers2
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/ament_index/resource_index/parent_prefix_path/optris_drivers2
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/ament_prefix_path.sh
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/ament_prefix_path.dsv
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/path.sh
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/environment/path.dsv
+[3.016s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/local_setup.bash
+[3.019s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/local_setup.sh
+[3.020s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/local_setup.zsh
+[3.020s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/local_setup.dsv
+[3.021s] -- Installing: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.dsv
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/ament_index/resource_index/packages/optris_drivers2
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_generator_cExport.cmake
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_generator_cExport-noconfig.cmake
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_typesupport_fastrtps_cExport.cmake
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.021s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_generator_cppExport.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_introspection_cExport.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_cExport.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_cExport-noconfig.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_introspection_cppExport.cmake
+[3.022s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.023s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_cppExport.cmake
+[3.023s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2__rosidl_typesupport_cppExport-noconfig.cmake
+[3.023s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_generator_pyExport.cmake
+[3.023s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/export_optris_drivers2__rosidl_generator_pyExport-noconfig.cmake
+[3.023s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/rosidl_cmake-extras.cmake
+[3.024s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.028s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.030s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/ament_cmake_export_libraries-extras.cmake
+[3.031s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/ament_cmake_export_targets-extras.cmake
+[3.031s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.031s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.031s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2Config.cmake
+[3.031s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/cmake/optris_drivers2Config-version.cmake
+[3.032s] -- Up-to-date: /home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.xml
+[3.040s] Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2

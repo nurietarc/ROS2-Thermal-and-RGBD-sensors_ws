@@ -28,7 +28,7 @@ def generate_launch_description():
         "focus", default_value='80'                  # argument that enables focus modification
     )
     yolo_model_launch_arg = DeclareLaunchArgument(
-        "yolo_model", default_value='yolov8m-seg.pt'                  # argument that enables yolo model choice
+        "yolo_model", default_value='broccoli-seg.pt'                  # argument that enables yolo model choice
     )
     rgbd_resolution_launch_arg = DeclareLaunchArgument(
         "rgbd_resolution", default_value='1280,720,30'                  # argument that enables rgbd camera resolution choice '640,480,30'
@@ -37,7 +37,7 @@ def generate_launch_description():
         "homography_file", default_value='1280'                  # argument that enables changing the homography
     )
     name_class_id_launch_arg = DeclareLaunchArgument(
-        "name_class", default_value='person'                  # argument that enables changing the detected yolo class
+        "name_class", default_value='Broccoli'                  # argument that enables changing the detected yolo class
     )
     number_class_id_launch_arg = DeclareLaunchArgument(
         "number_class", default_value='0'                  # argument that enables changing the detected yolo class
@@ -55,7 +55,8 @@ def generate_launch_description():
             launch_arguments={                  # these arguments can be modified through the terminal
                 'align_depth.enable': LaunchConfiguration('align_depth'),
                 'pointcloud.enable': LaunchConfiguration('pointcloud_enable'),
-                'rgb_camera.color_profile': LaunchConfiguration('rgbd_resolution')
+                'rgb_camera.color_profile': LaunchConfiguration('rgbd_resolution'),
+                'depth_module.depth_profile': LaunchConfiguration('rgbd_resolution')
             }.items()
     )
     delay_before_launches = TimerAction(
@@ -165,7 +166,7 @@ def generate_launch_description():
         output='screen'
     )
     delay_rviz = TimerAction(
-        period=7.0,                            # Delay in seconds (global time)
+        period=9.0,                            # Delay in seconds (global time)
         actions=[rviz_node]
     )  
 
@@ -180,7 +181,7 @@ def generate_launch_description():
         name_class_id_launch_arg,
         number_class_id_launch_arg,
         delay_before_launches,
-        delay_between_launches,
+        #delay_between_launches,
         delay_config,
         delay_node_1,
         delay_node_2,

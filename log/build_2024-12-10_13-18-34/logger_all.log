@@ -1,0 +1,554 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x784ba5223610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x784ba5223010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x784ba5223010>>, mixin_verb=('build',))
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.617s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yeray/sensors_ws'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['cmake', 'python']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/Calibration) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProvesDeCamp) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['cmake', 'python']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/Saving) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_nodes) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_nodes' with type 'ros.catkin' and name 'custom_nodes'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extensions ['ros']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/optris_drivers2) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/optris_drivers2' with type 'ros.ament_cmake' and name 'optris_drivers2'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.676s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.681s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/ultralytics_ros) by extension 'ros'
+[0.686s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ultralytics_ros' with type 'ros.ament_cmake' and name 'ultralytics_ros'
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.732s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/yeray/sensors_ws/install
+[0.734s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 398 installed packages in /opt/ros/humble
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_target' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_clean_first' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'cmake_force_configure' from command line to 'False'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'ament_cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.808s] Level 5:colcon.colcon_core.verb:set package 'optris_drivers2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.809s] DEBUG:colcon.colcon_core.verb:Building package 'optris_drivers2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/optris_drivers2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/optris_drivers2', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/optris_drivers2', 'symlink_install': False, 'test_result_base': None}
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.809s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_target' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'ultralytics_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.810s] DEBUG:colcon.colcon_core.verb:Building package 'ultralytics_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/ultralytics_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/ultralytics_ros', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/ultralytics_ros', 'symlink_install': False, 'test_result_base': None}
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.811s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.812s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_target' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'custom_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.813s] DEBUG:colcon.colcon_core.verb:Building package 'custom_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yeray/sensors_ws/build/custom_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yeray/sensors_ws/install/custom_nodes', 'merge_install': False, 'path': '/home/yeray/sensors_ws/src/custom_nodes', 'symlink_install': False, 'test_result_base': None}
+[0.813s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.814s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.814s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.814s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeray/sensors_ws/src/optris_drivers2' with build type 'ament_cmake'
+[0.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/optris_drivers2'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeray/sensors_ws/src/ultralytics_ros' with build type 'ament_cmake'
+[0.830s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/ultralytics_ros'
+[0.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera_msgs -- -j8 -l8
+[0.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+[1.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera_msgs -- -j8 -l8
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/optris_drivers2 -- -j8 -l8
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/yeray/sensors_ws/build/ultralytics_ros -- -j8 -l8
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/ultralytics_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros
+[1.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera_msgs
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultralytics_ros)
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/optris_drivers2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros' for CMake module files
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'cmake_prefix_path')
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.sh'
+[1.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/ultralytics_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/ultralytics_ros
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib'
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'ld_library_path_lib')
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.sh'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/bin'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib/pkgconfig/ultralytics_ros.pc'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib/python3.10/site-packages'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/bin'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.sh'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.bash'
+[1.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.zsh'
+[1.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/ultralytics_ros/share/colcon-core/packages/ultralytics_ros)
+[2.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs' for CMake module files
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera_msgs
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs' for CMake config files
+[2.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[2.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib'
+[2.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/bin'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/bin'
+[2.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[2.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[2.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(optris_drivers2)
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2' for CMake module files
+[2.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/optris_drivers2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/yeray/sensors_ws/build/optris_drivers2
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2' for CMake config files
+[2.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('optris_drivers2', 'cmake_prefix_path')
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.sh'
+[2.040s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib'
+[2.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('optris_drivers2', 'ld_library_path_lib')
+[2.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.ps1'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.dsv'
+[2.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.sh'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/bin'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib/pkgconfig/optris_drivers2.pc'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib/python3.10/site-packages'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/bin'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.ps1'
+[2.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.dsv'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.sh'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.bash'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.zsh'
+[2.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/optris_drivers2/share/colcon-core/packages/optris_drivers2)
+[2.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ultralytics_ros)
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros' for CMake module files
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros' for CMake config files
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'cmake_prefix_path')
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.ps1'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.dsv'
+[2.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/cmake_prefix_path.sh'
+[2.080s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib'
+[2.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('ultralytics_ros', 'ld_library_path_lib')
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/hook/ld_library_path_lib.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib/pkgconfig/ultralytics_ros.pc'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/lib/python3.10/site-packages'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/ultralytics_ros/bin'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.ps1'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.sh'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/ultralytics_ros/share/ultralytics_ros/package.zsh'
+[2.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/ultralytics_ros/share/colcon-core/packages/ultralytics_ros)
+[2.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs' for CMake module files
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs' for CMake config files
+[2.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[2.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[2.191s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib'
+[2.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/bin'
+[2.193s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[2.194s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera_msgs/bin'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[2.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[2.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[2.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[2.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_camera'
+[2.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[2.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/realsense-ros/realsense2_description'
+[2.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(optris_drivers2)
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2' for CMake module files
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2' for CMake config files
+[2.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('optris_drivers2', 'cmake_prefix_path')
+[2.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.dsv'
+[2.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/cmake_prefix_path.sh'
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib'
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('optris_drivers2', 'ld_library_path_lib')
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.ps1'
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.dsv'
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/hook/ld_library_path_lib.sh'
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/bin'
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib/pkgconfig/optris_drivers2.pc'
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/lib/python3.10/site-packages'
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/optris_drivers2/bin'
+[2.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.sh'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.bash'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/optris_drivers2/share/optris_drivers2/package.zsh'
+[2.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/optris_drivers2/share/colcon-core/packages/optris_drivers2)
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera -- -j8 -l8
+[2.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_description -- -j8 -l8
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_description -- -j8 -l8
+[2.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_description
+[2.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description' for CMake module files
+[2.338s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description' for CMake config files
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_description
+[2.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/bin'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/lib/python3.10/site-packages'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/bin'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[2.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description' for CMake module files
+[2.377s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description' for CMake config files
+[2.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/bin'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/lib/python3.10/site-packages'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_description/bin'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/realsense2_camera -- -j8 -l8
+[2.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera
+[2.484s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera' for CMake module files
+[2.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs:/opt/ros/humble:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_description:/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/optris_drivers2 LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/realsense2_camera
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera' for CMake config files
+[2.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib'
+[2.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/bin'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/bin'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[2.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[2.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[2.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera' for CMake module files
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[2.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib'
+[2.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[2.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/bin'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/realsense2_camera/bin'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[2.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[2.584s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/yeray/sensors_ws/src/custom_nodes' with build type 'catkin'
+[2.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yeray/sensors_ws/src/custom_nodes'
+[2.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/custom_nodes': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/custom_nodes -- -j8 -l8
+[2.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/custom_nodes' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yeray/sensors_ws/build/custom_nodes -- -j8 -l8
+[2.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yeray/sensors_ws/build/custom_nodes': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/custom_nodes
+[2.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yeray/sensors_ws/build/custom_nodes' returned '0': CMAKE_PREFIX_PATH=/home/yeray/sensors_ws/install/realsense2_camera:/home/yeray/sensors_ws/install/ultralytics_ros:/home/yeray/sensors_ws/install/realsense2_camera_msgs:/home/yeray/sensors_ws/install/optris_drivers2:/home/yeray/sensors_ws/install/custom_nodes:/home/yeray/sensors_ws/install/realsense2_description LD_LIBRARY_PATH=/home/yeray/sensors_ws/install/realsense2_camera/lib:/home/yeray/sensors_ws/install/ultralytics_ros/lib:/home/yeray/sensors_ws/install/realsense2_camera_msgs/lib:/home/yeray/sensors_ws/install/optris_drivers2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yeray/sensors_ws/build/custom_nodes
+[2.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_nodes', 'ros_package_path')
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/ros_package_path.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/ros_package_path.dsv'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/ros_package_path.sh'
+[2.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_nodes', 'pkg_config_path')
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path.ps1'
+[2.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path.dsv'
+[2.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path.sh'
+[2.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_nodes', 'pkg_config_path_multiarch')
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path_multiarch.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path_multiarch.dsv'
+[2.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/pkg_config_path_multiarch.sh'
+[2.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_nodes)
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes' for CMake module files
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes' for CMake config files
+[2.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_nodes', 'cmake_prefix_path')
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/cmake_prefix_path.ps1'
+[2.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/cmake_prefix_path.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/hook/cmake_prefix_path.sh'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes/bin'
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes/lib/pkgconfig/custom_nodes.pc'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes/lib/python3.10/site-packages'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/yeray/sensors_ws/install/custom_nodes/bin'
+[2.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.ps1'
+[2.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.dsv'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.sh'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.bash'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/yeray/sensors_ws/install/custom_nodes/share/custom_nodes/package.zsh'
+[2.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yeray/sensors_ws/install/custom_nodes/share/colcon-core/packages/custom_nodes)
+[2.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.821s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.828s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.853s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeray/sensors_ws/install/local_setup.ps1'
+[2.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeray/sensors_ws/install/_local_setup_util_ps1.py'
+[2.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeray/sensors_ws/install/setup.ps1'
+[2.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeray/sensors_ws/install/local_setup.sh'
+[2.862s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yeray/sensors_ws/install/_local_setup_util_sh.py'
+[2.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeray/sensors_ws/install/setup.sh'
+[2.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeray/sensors_ws/install/local_setup.bash'
+[2.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeray/sensors_ws/install/setup.bash'
+[2.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yeray/sensors_ws/install/local_setup.zsh'
+[2.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yeray/sensors_ws/install/setup.zsh'

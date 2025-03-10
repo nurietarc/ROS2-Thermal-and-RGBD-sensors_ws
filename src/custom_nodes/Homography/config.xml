@@ -32,7 +32,7 @@
   </autoflag>
   <tchipmode>0</tchipmode>                <!-- 0=Floating (default), 1=Auto, 2=Fixed value -->
   <tchipfixedvalue>40.0</tchipfixedvalue> <!-- Fixed value for tchipmode=2 -->
-  <focus>80</focus> <!-- position of focus motor in % of range [0; 100]; Set to negative value to disable focus change on startup -->
+  <focus>70</focus> <!-- position of focus motor in % of range [0; 100]; Set to negative value to disable focus change on startup -->
   <enable_extended_temp_range>0</enable_extended_temp_range> <!-- 0=Off, 1=On; Caution! Enables invalid extended temp range-->
   <buffer_queue_size>5</buffer_queue_size> <!-- internal buffer queue size -->
   <enable_high_precision>0</enable_high_precision> <!-- 0=Off, 1=On; Enables temperatures with more than 1 decimal places. Depends on used camera (IRImager::getTemprangeDecimal()).-->

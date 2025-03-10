@@ -7,13 +7,19 @@ from cv_bridge import CvBridge
 import numpy as np
 import os
 import argparse
+import time
 
 class Calculator(Node):
-    def __init__(self, homography_file, name_class, number_class):
+    def __init__(self):
         super().__init__('Temperature_CSWI_Calculator')
 
         # Logging for debugging initialization
         self.get_logger().info("Initializing ImageRescaler node")
+
+        # Crear archivo de log
+        self.log_file_path = os.path.expanduser("~/sensors_ws/src/custom_nodes/processing_times.txt")
+        self.log_file = open(self.log_file_path, "w")
+        self.log_file.write("Process Time Logs:\n")
 
         # Suscriptores para los tópicos
         self.rgb_subscriber = self.create_subscription(Image, '/camera/camera/color/image_raw', self.rgb_callback, 10)
@@ -30,27 +36,11 @@ class Calculator(Node):
         # Utilidad para convertir entre ROS Image y OpenCV Image
         self.bridge = CvBridge()
 
-        # Cargar archivo de calibración de homografía
-        self.get_logger().info(f"Loading homography file for resolution: {homography_file}")
-        if homography_file == 1280: 
-            try:
-                self.H = np.loadtxt(os.path.expanduser("~/sensors_ws/src/custom_nodes/Homography/average_homography2.txt"))
-            except Exception as e:
-                self.get_logger().error(f"Failed to load homography matrix: {e}")
-                self.H = None
-        elif homography_file == 640:
-            try:
-                self.H = np.loadtxt(os.path.expanduser("~/sensors_ws/src/custom_nodes/Homography/average_homography_termica_rgb2.txt"))
-            except Exception as e:
-                self.get_logger().error(f"Failed to load homography matrix: {e}")
-                self.H = None
-        else:
-            self.get_logger().error(f"You have put either 1280 or 640 in the homography_file parameter")
-            self.H = None
+        self.H = None  # Homography matrix
 
         # Additional parameters
-        self.name_class = name_class
-        self.number_class = number_class
+        #self.name_class = name_class
+        #self.number_class = number_class
 
         # Variables para almacenar las imágenes
         self.rgb_image = None
@@ -62,36 +52,55 @@ class Calculator(Node):
         self.Twet = 22.0  # Ajusta este valor según sea necesario
         self.Tdry = 27.0  # Ajusta este valor según sea necesario
 
+
     def rgb_callback(self, msg):
-        #self.get_logger().debug("Received RGB image")
         self.rgb_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+        
+        # Obtener la resolución de la imagen
+        height, width, _ = self.rgb_image.shape
+
+        # Cargar la homografía adecuada según la resolución
+        if width == 1280:
+            if self.H is None or self.H.shape[1] != 1280:
+                self.get_logger().info("Loading 1280 homography matrix.")
+                try:
+                    self.H = np.loadtxt(os.path.expanduser("~/sensors_ws/src/custom_nodes/Homography/average_homography2.txt"))
+                except Exception as e:
+                    self.get_logger().error(f"Failed to load 1280 homography matrix: {e}")
+        elif width == 640:
+            if self.H is None or self.H.shape[1] != 640:
+                self.get_logger().info("Loading 640 homography matrix.")
+                try:
+                    self.H = np.loadtxt(os.path.expanduser("~/sensors_ws/src/custom_nodes/Homography/average_homography_termica_rgb2.txt"))
+                except Exception as e:
+                    self.get_logger().error(f"Failed to load 640 homography matrix: {e}")
+        else:
+            self.get_logger().error(f"Unsupported resolution: {width}x{height}. No homography applied.")
+            self.H = None
+
+        # Procesar las imágenes
         self.process_images()
 
     def thermal_callback(self, msg):
-        #self.get_logger().debug("Received thermal image")
         self.thermal_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='mono8')
         self.process_images()
 
     def temperature_callback(self, msg):
-        #self.get_logger().debug("Received thermal temperature image")
         self.thermal_temperature_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='mono16')
 
+
     def yolo_callback(self, msg):
-        #self.get_logger().debug("Received YOLO result")
         self.process_and_publish_yolo_masks(msg)
     
     def process_images(self):
         if self.rgb_image is not None and self.thermal_image is not None:
-            #self.get_logger().info("Processing RGB and thermal images")
             height, width = self.thermal_image.shape
             if self.H is not None:
                 self.rgb_rescaled = cv2.warpPerspective(self.rgb_image, self.H, (width, height))
-                #self.get_logger().info("Publishing rescaled RGB image")
                 rescaled_image_msg = self.bridge.cv2_to_imgmsg(self.rgb_rescaled, encoding="bgr8")
                 self.rescaled_image_publisher.publish(rescaled_image_msg)
             else:
                 self.get_logger().warn("Homography matrix not loaded, skipping image rescaling")
-
 
     def process_and_publish_yolo_masks(self, yolo_result_msg):
         if self.rgb_rescaled is None:
@@ -105,40 +114,40 @@ class Calculator(Node):
             for i, detection in enumerate(yolo_result_msg.detections.detections):
                 class_id = detection.results[0].hypothesis.class_id
 
-                if class_id == self.name_class or class_id == self.number_class:
-                    self.get_logger().info(f"Detected class matching target: {class_id}")
-                    mask_msg = yolo_result_msg.masks[i]
-                    if not mask_msg:
-                            self.get_logger().warn("Empty mask list. make sure to use a segmentation model and name it with a -seg suffix. For example: your_model-seg.pt")
-                            return
-                    yolo_mask = self.bridge.imgmsg_to_cv2(mask_msg, desired_encoding='mono8')
+                # if class_id == self.name_class or class_id == self.number_class:
+                self.get_logger().info(f"Detected class matching target: {class_id}")
+                mask_msg = yolo_result_msg.masks[i]
+                if not mask_msg:
+                        self.get_logger().warn("Empty mask list. make sure to use a segmentation model and name it with a -seg suffix. For example: your_model-seg.pt")
+                        return
+                yolo_mask = self.bridge.imgmsg_to_cv2(mask_msg, desired_encoding='mono8')
 
-                    if self.thermal_image is not None:
-                        height, width = self.thermal_image.shape
-                        rescaled_mask = cv2.warpPerspective(yolo_mask, self.H, (width, height))
+                if self.thermal_image is not None:
+                    height, width = self.thermal_image.shape
+                    rescaled_mask = cv2.warpPerspective(yolo_mask, self.H, (width, height))
 
-                        # Calcular el área de la máscara reescalada
-                        mask_area = np.count_nonzero(rescaled_mask)
-                        image_area = self.rgb_rescaled.shape[0] * self.rgb_rescaled.shape[1]
+                    # Calcular el área de la máscara reescalada
+                    mask_area = np.count_nonzero(rescaled_mask)
+                    image_area = self.rgb_rescaled.shape[0] * self.rgb_rescaled.shape[1]
 
-                        # Ignorar máscaras que sean más pequeñas del 10% del área total de la imagen reescalada
-                        if mask_area < 0.1 * image_area:
-                            self.get_logger().info(f"Mask {i} is too small and will be ignored.")
-                            continue
+                    # Ignorar máscaras que sean más pequeñas del 10% del área total de la imagen reescalada
+                    # if mask_area < 0.001 * image_area:
+                    #     self.get_logger().info(f"Mask {i} is too small and will be ignored.")
+                    #     continue
 
-                        if self.is_mask_within_bounds(rescaled_mask, width, height):
-                            temperature = self.calculate_mask_temperature(rescaled_mask)
-                            if temperature != 0.0:
-                                cwsi = (temperature - self.Twet) / (self.Tdry - self.Twet)
-                                color = (128, 0, 128)  # Morado para todas las máscaras
-                                person_temperatures.append((rescaled_mask, temperature, cwsi, color))
-                                
-                                # Si no hay una máscara combinada, inicializarla con la primera
-                                if combined_mask is None:
-                                    combined_mask = rescaled_mask
-                                else:
-                                    # Combinar máscaras utilizando operación bitwise OR
-                                    combined_mask = cv2.bitwise_or(combined_mask, rescaled_mask)
+                    if self.is_mask_within_bounds(rescaled_mask, width, height):
+                        temperature = self.calculate_mask_temperature(rescaled_mask)
+                        if temperature != 0.0:
+                            cwsi = (temperature - self.Twet) / (self.Tdry - self.Twet)
+                            color = (128, 0, 128)  # Morado para todas las máscaras
+                            person_temperatures.append((rescaled_mask, temperature, cwsi, color))
+                            
+                            # Si no hay una máscara combinada, inicializarla con la primera
+                            if combined_mask is None:
+                                combined_mask = rescaled_mask
+                            else:
+                                # Combinar máscaras utilizando operación bitwise OR
+                                combined_mask = cv2.bitwise_or(combined_mask, rescaled_mask)
 
             # Publicar la máscara combinada en 'rescaled_yolo_masks'
             if combined_mask is not None:
@@ -178,8 +187,6 @@ class Calculator(Node):
             cv2.putText(image, f'{temperature:.2f} C', (center_x - 20, center_y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, text_color, 2)
             cv2.putText(image, f'CSWI: {cwsi:.2f}', (center_x - 20, center_y + 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, text_color, 2)
 
-
-     
     def is_mask_within_bounds(self, mask, width, height):
         valid_pixels = np.argwhere(mask > 0)
         for pixel in valid_pixels:
@@ -209,18 +216,23 @@ class Calculator(Node):
             return np.mean(mask_temperature_values)
         else:
             return 0.0
+        
+    def destroy_node(self):
+        # Cerrar archivo de log
+        self.log_file.close
+        super().destroy_node()
 
 def main(args=None):
     # Parsear los argumentos de la línea de comandos
     parser = argparse.ArgumentParser(description='Image Rescaler Node')
-    parser.add_argument('--homography_file', type=int, required=True, help='1280 o 640')
-    parser.add_argument('--name_class', type=str, required=True, help='Name of the class in YOLO')
-    parser.add_argument('--number_class', type=int, required=True, help='Index ID of the class in YOLO')
-    args = parser.parse_args()
+    #parser.add_argument('--homography_file', type=int, required=True, help='1280 o 640')
+    #parser.add_argument('--name_class', type=str, required=True, help='Name of the class in YOLO')
+    #parser.add_argument('--number_class', type=int, required=True, help='Index ID of the class in YOLO')
+    #args = parser.parse_args()
 
     rclpy.init()  # Inicializar sin pasar 'args' aquí
 
-    image_rescaler = Calculator(homography_file=args.homography_file, name_class=args.name_class, number_class=args.number_class)  # Pasar el valor correcto
+    image_rescaler = Calculator()
     rclpy.spin(image_rescaler)
     image_rescaler.destroy_node()
     rclpy.shutdown()

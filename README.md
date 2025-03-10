@@ -66,6 +66,8 @@ This repository consists of 3 packages and 3 other folders, which basic structur
    - `calibration_node.py`:
    - `image_saver_node_all.py`: Program that saves all the result images of the specified topics at an instant when the user presses the `s` key. All images are of the same instant, therefore, if an image could not be retrieved when the others, no image is saved.
    - `video_saver_node_all.py`: Program that starts recording all the results videos of the specified topics when the user presses the `s` key. To stop the recording, the `s` key has to be pressed again.
+   - `image_saver_rosbags.py`: Program that saves all the result images of the specified topics in rosbag data format. This is done in that way to obtain the data in a faster way, without converting into images or videos directly.
+   - `rosbags_postprocess.py`: Program that transforms the rosbag data into images. This code could be updated to transform this same data into videos taking into account the timestamps of the data.
 
 6. **ProvesDeCamp**
    - This folder's purpose is just for saving results.
