@@ -102,6 +102,7 @@ This repository consists of 3 packages and 3 other folders, which basic structur
          - Framerate.
       - You can find further explanations and references in the annex C of [this thesis ](https://upcommons.upc.edu/handle/2117/413406) and in the oficial documentation [here](https://documentation.evocortex.com/libirimager2/html/Installation.html)
    * **ultralytics_ros:** Following the instructions of the [official site](https://github.com/Alpaca-zip/ultralytics_ros) there should be no issues.
+      - The neural networks must be added to the folder install/ultralytics_ros/share/ultralytics_ros/models The models are heavy and that's why they are in the local CDEI folder X:/nas_del_gegant.local/1-cdei/2-projectes/2024-SM-AGRO/2024-SENSORS%20agrícoles/RGBD_Thermal
 
 ### Executing program
 
